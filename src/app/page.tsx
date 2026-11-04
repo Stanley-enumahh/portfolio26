@@ -156,7 +156,7 @@ export default function Home() {
             <p className="mt-4 max-w-2xl text-[13px] leading-6 text-muted">
               {site.product.description}
             </p>
-            <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 border-t border-line pt-4 text-[12px]">
+            <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-line pt-4 text-[12px]">
               <dl className="flex flex-wrap items-center gap-x-6 gap-y-2">
                 {site.product.facts.map((fact) => (
                   <div key={fact.label} className="flex items-center gap-2">
@@ -165,7 +165,7 @@ export default function Home() {
                   </div>
                 ))}
               </dl>
-              <span className="ml-auto border-b border-fg pb-0.5 tracking-[0.06em] transition-colors group-hover:border-accent group-hover:text-accent">
+              <span className="border-b border-fg pb-0.5 tracking-[0.06em] transition-colors group-hover:border-accent group-hover:text-accent sm:ml-auto">
                 {site.product.cta} ↗
               </span>
             </div>

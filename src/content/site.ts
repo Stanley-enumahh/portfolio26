@@ -21,7 +21,7 @@ export const site = {
   links: [
     { label: "github", href: "https://github.com/Stanley-enumahh" },
     {
-      label: "X",
+      label: "Twitter",
       href: "https://x.com/stanlee0nX/",
     },
   ],
@@ -30,7 +30,7 @@ export const site = {
     name: "myDearest",
     tagline: "Handwritten letters, sent as a link.",
     description:
-      "Write it once and myDearest turns it into a real handwritten letter, sealed in an envelope and delivered as a link that never expires. Made for birthdays, anniversaries, apologies, and the things people never say out loud. No account, no typing skills, just a letter they'll actually sit down and open.",
+      "Write it once and myDearest turns it into a real handwritten letter, sealed in an envelope and delivered as a link that never expires. Made for birthdays, anniversaries, apologies, and the things people never say out loud.",
     role: "Founder",
     href: "https://www.usemydearest.xyz",
     cta: "write a letter",
