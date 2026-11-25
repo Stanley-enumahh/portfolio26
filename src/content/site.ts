@@ -40,6 +40,7 @@ export const site = {
 
   // href: the project's website, opened in a new tab from the arrow.
   // Leave it as "#" or "" and the row shows without an arrow.
+  // repo (optional): adds a GitHub icon next to the arrow.
   projects: [
     {
       title: "UtilityBox",
@@ -62,6 +63,13 @@ export const site = {
       description:
         "Chrome extension - turn any web page into a shooting game, a stick man blasts enemies and the page's own elements to pieces.",
       href: "https://chromewebstore.google.com/detail/kartana/ikhapcfikimfcipadacoaobhmddaoegj",
+    },
+    {
+      title: "Gift Circle",
+      description:
+        "Randomly matches members of a group for gifting, you see who you're gifting but never who's gifting you",
+      href: "https://gift-circle-s.vercel.app",
+      repo: "https://github.com/Stanley-enumahh/Random-Gift",
     },
   ],
 
